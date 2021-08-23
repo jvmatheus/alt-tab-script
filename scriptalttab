@@ -1,0 +1,6 @@
+#!/bin/bash
+while [ 1 ]; do
+	xdotool keydown alt key Tab; xdotool keyup alt &
+	sleep 10
+done
+

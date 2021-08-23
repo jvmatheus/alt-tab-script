@@ -1,0 +1,7 @@
+
+#!/bin/bash
+
+findid=$(ps af | grep scriptalttab | grep -v "+" | grep -v "T" | cut -d " " -f 1)
+
+$(kill $findid)
+
